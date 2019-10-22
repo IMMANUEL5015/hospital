@@ -20,3 +20,5 @@ The following Bootstrap components were used in the development of this work:
 
 ## Disclaimer
 It should be noted that this is NOT a real hospital website.
+
+Please click the link to see the [website](https://immanuel5015.github.io/hospital/hospital.html).
