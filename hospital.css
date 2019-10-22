@@ -1,0 +1,86 @@
+/* general styles */
+body{
+    font-family: 'Merriweather', serif;
+    padding-top: 70px;
+}
+h2{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.jumbotron, #about{
+    background: red;
+    color: white;
+}
+
+/* custom styles for navbar section */
+.navbar-default{
+    background: red;
+ }
+ .navbar-default .navbar-brand, .navbar-default .navbar-nav li a{
+     color: white;
+ }
+
+/* custom styles for showcase area section */
+.jumbotron h1{
+    font-size: 3em;
+}
+
+/* custom styles for about and award section */
+div#about, #award{
+    font-size: 1.2em;
+    padding: 20px !important;
+}
+
+/* custom styles for our services section */
+.row{
+    margin-top: 25px;
+}
+.thumbnail{
+    line-height: 25px;
+}
+.thumbnail img{
+    width: 100%;
+}
+div#services .thumbnail{
+    padding: 20px;
+    font-size: 14px;
+}
+div#services span{
+    color: red;
+}
+div#services ul{
+    margin-left: -20px;
+}
+.thumbnail h4, .thumbnail a{
+    color: red;
+    font-weight: bold;
+}
+
+/* forms styles */
+#forms h4{
+    font-weight: bold;
+}
+#forms{
+    color: red;
+}
+input[type="submit"]{
+    color: red;
+}
+#forms #unsubscribe{
+    margin-top: 5px;
+}
+#unsubscribe .form-inline{
+    margin-top: 32px;
+}
+
+/* media queries styles */
+@media screen and (max-width: 992px){
+    /* forms styles */
+    #forms #unsubscribe{
+        margin-top: 20px;
+    }
+    #unsubscribe .form-inline{
+        margin-top: 2px;
+    } 
+}
