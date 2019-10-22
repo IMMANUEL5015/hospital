@@ -5,9 +5,9 @@ This practice project was built to portray my basic knowledge of Bootstrap.
 
 ## Main Technologies
 The key technologies used in this work are:
-*HTML
-*CSS
-*BOOTSTRAP
+* HTML
+* CSS
+* BOOTSTRAP
 
 ## BOOTSTRAP USAGE
 The following Bootstrap components were used in the development of this work:
