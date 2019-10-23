@@ -17,6 +17,11 @@ The following Bootstrap components were used in the development of this work:
 - Navbar
 - Grid System
 - Cards
+- Colors
+- Typography
+- Borders
+- Spacing 
+- Display
 
 ## Disclaimer
 It should be noted that this is NOT a real hospital website.
