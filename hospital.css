@@ -2,6 +2,7 @@
 body{
     font-family: 'Merriweather', serif;
     padding-top: 70px;
+    padding-bottom: 20px;
 }
 h2{
     font-size: 1.4em;
@@ -14,10 +15,10 @@ h2{
 }
 
 /* custom styles for navbar section */
-.navbar-default{
+.navbar-light{
     background: red;
  }
- .navbar-default .navbar-brand, .navbar-default .navbar-nav li a{
+ .navbar-light .navbar-brand, .navbar-nav .nav-item .nav-link{
      color: white;
  }
 
@@ -36,13 +37,13 @@ div#about, #award{
 .row{
     margin-top: 25px;
 }
-.thumbnail{
+.card{
     line-height: 25px;
 }
-.thumbnail img{
+.card img{
     width: 100%;
 }
-div#services .thumbnail{
+div#services .card{
     padding: 20px;
     font-size: 14px;
 }
@@ -52,7 +53,7 @@ div#services span{
 div#services ul{
     margin-left: -20px;
 }
-.thumbnail h4, .thumbnail a{
+.card h5{
     color: red;
     font-weight: bold;
 }
@@ -64,23 +65,10 @@ div#services ul{
 #forms{
     color: red;
 }
-input[type="submit"]{
-    color: red;
-}
-#forms #unsubscribe{
-    margin-top: 5px;
-}
-#unsubscribe .form-inline{
-    margin-top: 32px;
-}
 
-/* media queries styles */
+/* media queries */
 @media screen and (max-width: 992px){
-    /* forms styles */
-    #forms #unsubscribe{
+    #unsubscribe{
         margin-top: 20px;
     }
-    #unsubscribe .form-inline{
-        margin-top: 2px;
-    } 
 }
