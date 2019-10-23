@@ -9,23 +9,6 @@ h2{
     font-weight: bold;
     text-transform: capitalize;
 }
-.jumbotron, #about{
-    background: red;
-    color: white;
-}
-
-/* custom styles for navbar section */
-.navbar-light{
-    background: red;
- }
- .navbar-light .navbar-brand, .navbar-nav .nav-item .nav-link{
-     color: white;
- }
-
-/* custom styles for showcase area section */
-.jumbotron h1{
-    font-size: 3em;
-}
 
 /* custom styles for about and award section */
 div#about, #award{
@@ -47,23 +30,17 @@ div#services .card{
     padding: 20px;
     font-size: 14px;
 }
-div#services span{
-    color: red;
-}
+
 div#services ul{
     margin-left: -20px;
 }
 .card h5{
-    color: red;
     font-weight: bold;
 }
 
 /* forms styles */
 #forms h4{
     font-weight: bold;
-}
-#forms{
-    color: red;
 }
 
 /* media queries */
