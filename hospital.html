@@ -12,7 +12,7 @@
     </head>
     <body>
         <!-- nav section -->
-        <nav class="navbar navbar-light navbar-expand-md fixed-top bg-danger">
+        <nav class="navbar navbar-light navbar-expand-md fixed-top bg-danger" id="mainNav">
             <div class="container">
                 <a class="navbar-brand text-light" href="#">Immanuel</a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -79,7 +79,7 @@
                     </p>
                 </div><!--about-->
                 <!-- award section -->
-                <div id="award" class="col-lg-5 border border-danger rounded mt-4 mt-lg-0">
+                <div id="award" class="col-lg-5 border border-danger rounded mt-4 mt-lg-0 d-flex flex-column justify-content-center">
                     <h2>INTERNATIONAL ACCREDITATION AWARD ON QUALITY</h2>
                     <p>
                         First independent hospital in Nigeria to receive the COHOSA 
@@ -114,7 +114,7 @@
                     </div><!--card-->
                 </div><!--services-->
 
-                <div id="intensiveCare" class="col-xl-3 col-sm-6 mb-3">
+                <div id="intensiveCare" class="col-xl-3 col-sm-6 mb-3 order-lg-3">
                     <div class="card">
                         <img src="https://reddingtonhospital.com/wp-content/uploads/2017/06/intensive-care.jpeg" 
                         alt="Two people holding hands"
@@ -132,7 +132,7 @@
                     </div><!--card-->
                 </div><!--intensive care-->
 
-                <div id="urology" class="col-xl-3 col-sm-6 mb-3">
+                <div id="urology" class="col-xl-3 col-sm-6 mb-3 order-lg-2">
                     <div class="card">
                         <img src="https://reddingtonhospital.com/wp-content/uploads/2017/06/intensive-care.jpeg" 
                         alt="Two people holding hands"
@@ -150,7 +150,7 @@
                     </div><!--card-->
                 </div><!--urology-->
                 
-                <div id="gastroenterology" class="col-xl-3 col-sm-6 mb-3">
+                <div id="gastroenterology" class="col-xl-3 col-sm-6 mb-3 order-lg-4">
                     <div class="card">
                         <img src="https://reddingtonhospital.com/wp-content/uploads/2017/06/intensive-care.jpeg" 
                         alt="Two people holding hands"
@@ -168,6 +168,12 @@
                     </div><!--card-->
                 </div><!--gastroenterology-->
             </div><!--ROW-->
+
+            <!-- hospital section -->
+            <section id="hospital" class="my-5 d-flex justify-content-center align-items-center">
+                <img src="https://images.pexels.com/photos/263399/pexels-photo-263399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Immanuel Hospital" class="img-fluid">
+                <p class="lead">Immanuel Hospital</p>    
+            </section>
 
             <!-- forms section -->
             <div id="forms" class="row text-danger">
@@ -206,5 +212,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
         crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+            $(document).scroll(function(){
+                var $nav = $("#mainNav");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
     </script>
 </html>

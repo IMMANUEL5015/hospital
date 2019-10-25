@@ -9,7 +9,10 @@ h2{
     font-weight: bold;
     text-transform: capitalize;
 }
-
+.navbar.scrolled{
+    background-color: red !important;
+    transition: background 1s;
+}
 /* custom styles for about and award section */
 div#about, #award{
     font-size: 1.2em;
@@ -38,6 +41,21 @@ div#services ul{
     font-weight: bold;
 }
 
+/* hospitalsection */
+section#hospital{
+    height: 500px;
+    position: relative;
+}
+section#hospital img{
+    height: 500px;
+    opacity: 0.5;
+}
+section#hospital p{
+    position: absolute;
+    left: 40%;
+    font-weight: bold;
+}
+
 /* forms styles */
 #forms h4{
     font-weight: bold;
@@ -47,5 +65,23 @@ div#services ul{
 @media screen and (max-width: 992px){
     #unsubscribe{
         margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+        section#hospital p{
+            left: 30%;
+        }
+    }
+
+@media screen and (max-width: 490px){
+    section#hospital p{
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 380px){
+    section#hospital p{
+        left: 15%;
     }
 }

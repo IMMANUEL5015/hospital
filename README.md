@@ -22,6 +22,7 @@ The following Bootstrap components were used in the development of this work:
 - Borders
 - Spacing 
 - Display
+- Flex
 
 ## Disclaimer
 It should be noted that this is NOT a real hospital website.
