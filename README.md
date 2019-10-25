@@ -10,7 +10,7 @@ The key technologies used in this work are:
 * BOOTSTRAP
 
 ## BOOTSTRAP USAGE
-The following Bootstrap components were used in the development of this work:
+The following Bootstrap components/Utilities were used in the development of this work:
 - Buttons
 - Jumbotron
 - Forms
