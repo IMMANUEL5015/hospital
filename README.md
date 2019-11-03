@@ -1,7 +1,7 @@
 # The hospital
 
 ## Purpose
-This practice project was built to portray my basic knowledge of Bootstrap.
+This practice project is a web page for a fictional hospital that was built to portray my basic knowledge of Bootstrap.
 
 ## Main Technologies
 The key technologies used in this work are:
